@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Roboto';
+  src: local("../fonts/Roboto Black"), local("../fonts/Roboto-Black"), url("../fonts/Robotoblack.woff2") format("woff2"), url("../fonts/Robotoblack.woff") format("woff"), url("../fonts/Robotoblack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GothamRounded';
+  src: url("../fonts/GothamRounded-Bold.woff2") format("woff2"), url("../fonts/GothamRounded-Bold.woff") format("woff"), url("../fonts/GothamRounded-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+* {
+  margin: 0; }
+  * a {
+    text-decoration: none; }
+
+section header {
+  width: 1280px;
+  margin: 30px auto 30px auto; }
+  section header ul {
+    text-align: center; }
+    section header ul li {
+      display: inline; }
+      section header ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-right: 65px;
+        font-family: Roboto, sans-serif;
+        font-size: 18px;
+        color: #16a085;
+        letter-spacing: 1.5px; }
+
+section .image img {
+  width: 100%;
+  height: 100%; }
+
+section .content {
+  background: #f5f6f7;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  color: #373737; }
+  section .content .title {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 40px 0; }
+  section .content .text {
+    width: 75%;
+    margin: auto;
+    letter-spacing: 1.5px;
+    line-height: 26px; }
+    section .content .text p {
+      padding-bottom: 40px; }
+  section .content button {
+    background: #16a085;
+    font-family: GothamRounded, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    width: 192px;
+    height: 50px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    border: #16a085;
+    padding: 0;
+    margin-bottom: 95px; }
+
+footer {
+  height: 114px;
+  display: flex; }
+  footer .container {
+    width: 75%;
+    margin: auto; }
+    footer .container .copy {
+      display: flex;
+      justify-content: flex-end;
+      font-family: Roboto, sans-serif;
+      line-height: 1.2;
+      letter-spacing: 0.15em;
+      color: #373737; }

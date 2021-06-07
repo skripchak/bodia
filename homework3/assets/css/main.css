@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Verdana';
+  src: url("../fonts/Verdana.woff2") format("woff2"), url("../fonts/Verdana.woff") format("woff"), url("../fonts/Verdana.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Verdana-Bold';
+  src: url("../fonts/Verdana-Bold.woff2") format("woff2"), url("../fonts/Verdana-Bold.woff") format("woff"), url("../fonts/Verdana-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Consolas';
+  src: url("../fonts/Consolas-Bold.woff2") format("woff2"), url("../fonts/Consolas-Bold.woff") format("woff"), url("../fonts/Consolas-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+body {
+  background: url("../img/background.jpg"); }
+  body a {
+    text-decoration: none; }

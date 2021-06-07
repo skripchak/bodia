@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro-Regular.woff2") format("woff2"), url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  width: 1280px;
+  margin: auto; }
+  body a {
+    text-decoration: none; }
+  body ul {
+    list-style: none; }
+
+section {
+  margin: 61px auto 45px; }
+  section header .logo a {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 80px;
+    color: #4bcaff; }
+    section header .logo a span {
+      color: black; }
+  section header nav {
+    background: #35444f; }
+    section header nav ul {
+      text-align: center;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 70px; }
+      section header nav ul li {
+        display: inline-block;
+        padding: 34px 42px 34px; }
+        section header nav ul li a {
+          font-family: 'Myriad Pro', sans-serif;
+          font-size: 24px;
+          color: #ffffff; }
+      section header nav ul li:hover {
+        box-shadow: 1px 0  #818181, -1px 0px #818181;
+        background: #222f3a;
+        padding: 34px 42px 34px;
+        line-height: 0; }
+  section .content {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between; }
+    section .content .left-nav {
+      width: 344px;
+      height: 440px;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid black; }
+      section .content .left-nav a {
+        font-family: 'Myriad Pro', sans-serif;
+        color: #495863;
+        font-size: 27px;
+        padding: 28px 0 28px 44px; }
+      section .content .left-nav a:hover {
+        color: #000000;
+        padding: 28px 0 28px 69px;
+        background-color: #dbdbdb; }
+    section .content .image {
+      border: 1px solid black;
+      overflow: hidden; }
+      section .content .image img {
+        transition: 0.5s; }
+      section .content .image img:hover {
+        transform: scale(1.1); }
+  section .text {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 18px;
+    color: black;
+    line-height: 20pt;
+    width: 65%;
+    margin: auto 0 auto auto; }
+  section .copy-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #b4b7ba;
+    height: 70px;
+    font-family: 'Myriad Pro', sans-serif; }
+    section .copy-nav ul {
+      display: flex; }
+      section .copy-nav ul li {
+        padding: 0 25px 0 0; }
+        section .copy-nav ul li a {
+          color: #0c1927;
+          font-size: 28px; }
+        section .copy-nav ul li a:hover {
+          color: #3181a6;
+          text-decoration: underline; }
+    section .copy-nav .copyright {
+      padding-right: 35px;
+      font-size: 24px;
+      color: #0c1927; }
