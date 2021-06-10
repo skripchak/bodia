@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'Arimo-Bold';
+  src: url('../fonts/Arimo-Bold.woff2') format('woff2'),
+  url('../fonts/Arimo-Bold.woff') format('woff'),
+  url('../fonts/Arimo-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arimo';
+  src: url('../fonts/Arimo.woff2') format('woff2'),
+  url('../fonts/Arimo.woff') format('woff'),
+  url('../fonts/Arimo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background: #3a4965 no-repeat fixed center;
+  background-size: cover;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+section {
+  width: 90%;
+  margin: auto;
+
+  table {
+    background-color: #fafafa;
+    align-items: center;
+    margin: auto;
+    border-spacing: 0;
+
+    tr {
+      td.icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 69px;
+
+        i {
+          font-size: 24px;
+          color: #848484;
+        }
+
+        p {
+          margin-left: 12px;
+          //font-family: Arimo, sans-serif;
+          //font-size: 16px;
+          //text-transform: uppercase;
+          //color: #484848;
+        }
+      }
+
+      p {
+        font-family: Arimo, sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #484848;
+      }
+      td{
+        text-align: center;
+      }
+    }
+
+
+    tr.permission {
+      td {
+        width: 277px;
+        text-align: center;
+
+        p {
+          font-family: Arimo-Bold, sans-serif;
+          text-transform: uppercase;
+          color: #ffffff;
+          font-size: 24px;
+        }
+      }
+
+      .pricing {
+        width: 310px;
+        height: 156px;
+
+        p {
+          font-family: Arimo-Bold, sans-serif;
+          font-size: 18px;
+          text-transform: uppercase;
+          color: #484848;
+
+          span {
+            font-size: 30px;
+          }
+        }
+      }
+
+      .standard {
+        height: 70px;
+        background-color: #89c331;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.27);
+      }
+
+      .ultimate {
+        height: 70px;
+        background-color: #f04a56;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.27);
+
+        p {
+          font-size: 30px;
+        }
+      }
+
+      .premium {
+        height: 70px;
+        background-color: #20807c;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.27);
+      }
+    }
+
+    tr.price {
+      td {
+        p {
+          font-family: Arimo-Bold, sans-serif;
+          font-size: 60px;
+          text-transform: uppercase;
+          color: #484848;
+          margin: auto;
+        }
+
+        .wrap {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          top: -60px;
+          left: 100px;
+          font-family: Arimo-Bold, sans-serif;
+          font-size: 24px;
+          text-transform: uppercase;
+          color: #484848;
+
+          span {
+            font-family: Arimo, sans-serif;
+            font-size: 18px;
+            text-transform: uppercase;
+            color: #484848;
+          }
+        }
+      }
+    }
+
+    tr.storage {
+      background-color: #f2f2f2;
+      height: 69px;
+      text-align: center;
+
+
+      td.icon {
+        height: 69px;
+      }
+
+      td {
+        p {
+          font-family: Arimo, sans-serif;
+          font-size: 16px;
+          text-transform: uppercase;
+          color: #484848;
+        }
+      }
+    }
+
+    tr.bandwidth {
+      background-color: #e3e3e3;
+
+    }
+
+    tr.support{
+      background-color: #e3e3e3;
+    }
+
+    tr.users{
+      background-color: #e3e3e3;
+    }
+
+  }
+}
